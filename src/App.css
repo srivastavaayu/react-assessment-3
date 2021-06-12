@@ -121,12 +121,11 @@ left: -50%;
 }
 
 .hero-6 {
-margin: 20vh auto 0;
+margin: 20vh auto;
 }
 
 .card {
 margin: 5vh;
-width: 20vw;
 border: 0px none;
 }
 

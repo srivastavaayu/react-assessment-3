@@ -77,7 +77,7 @@ function Footer() {
     <>
       <div className='footer container-fluid mt-5'>
         <div className='footer-content row d-flex justify-content-center align-items-center'>
-          <div className='footer-1 col-5 text-center'>
+          <div className='col-12 col-md-5 text-center'>
             <img src={FooterLogo} />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -86,7 +86,7 @@ function Footer() {
               &copy; Copyright 2020 Nature
             </p>
           </div>
-          <div className='footer-2 col-4'>
+          <div className='col-12 col-md-4'>
             <h3>Information</h3>
             <span className='separator'></span>
             <div className='d-flex flex-column flex-wrap lh-lg'>
@@ -104,7 +104,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className='footer-3 col-3'>
+          <div className='col-12 col-md-3'>
             <h3>Follow Us</h3>
             <span className='separator'></span>
             <div className='d-flex flex-wrap lh-lg'>
@@ -146,7 +146,7 @@ function App() {
               />
             </div>
           </div>
-          <div className='row hero-2 mt-5'>
+          <div className='row hero-2 mt-5 text-center'>
             <div className='col-12 hero-2-top d-flex flex-column align-items-center'>
               <img src={Hero2Header} width='50' />
               <h2>Welcome to Nature</h2>
@@ -155,14 +155,22 @@ function App() {
                 doeiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <div className='col-12 hero-2-bottom d-flex justify-content-evenly'>
-              <img className='hero-2-container' src={Hero2Uncoloured} />
-              <img className='hero-2-container' src={Hero2Coloured} />
-              <img className='hero-2-container' src={Hero2Uncoloured} />
-              <img className='hero-2-container' src={Hero2Uncoloured} />
+            <div className='col-12 row hero-2-bottom d-flex justify-content-evenly'>
+              <div className='col-12 col-sm-2 col-md-3 mt-2'>
+                <img className='hero-2-container' src={Hero2Uncoloured} />
+              </div>
+              <div className='col-12 col-sm-2 col-md-3 mt-2'>
+                <img className='hero-2-container' src={Hero2Coloured} />
+              </div>
+              <div className='col-12 col-sm-2 col-md-3 mt-2'>
+                <img className='hero-2-container' src={Hero2Uncoloured} />
+              </div>
+              <div className='col-12 col-sm-2 col-md-3 mt-2'>
+                <img className='hero-2-container' src={Hero2Uncoloured} />
+              </div>
             </div>
           </div>
-          <div className='row hero-3 mt-3'>
+          <div className='row hero-3 mt-3 text-center'>
             <div className='col-12 hero-3-top d-flex flex-column align-items-center'>
               <h2>Proudly presented by</h2>
               <p>
@@ -170,12 +178,22 @@ function App() {
                 doeiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <div className='col-12 hero-3-bottom d-flex justify-content-evenly'>
-              <img className='hero-3-container' src={Hero315} />
-              <img className='hero-3-container' src={Hero324} />
-              <img className='hero-3-container' src={Hero33} />
-              <img className='hero-3-container' src={Hero324} />
-              <img className='hero-3-container' src={Hero315} />
+            <div className='col-12 row hero-3-bottom d-flex justify-content-evenly'>
+              <div className='col-12 col-sm-4 col-md-2'>
+                <img className='hero-3-container' src={Hero315} />
+              </div>
+              <div className='col-12 col-sm-4 col-md-2'>
+                <img className='hero-3-container' src={Hero324} />
+              </div>
+              <div className='col-12 col-sm-4 col-md-2'>
+                <img className='hero-3-container' src={Hero33} />
+              </div>
+              <div className='col-12 col-sm-6 col-md-2'>
+                <img className='hero-3-container' src={Hero324} />
+              </div>
+              <div className='col-12 col-sm-6 col-md-2'>
+                <img className='hero-3-container' src={Hero315} />
+              </div>
             </div>
           </div>
           <div className='container-fluid hero-45'>
@@ -212,22 +230,22 @@ function App() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   doeiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div className='row'>
-                  <div className='col-auto'>
+                <div className='row text-center'>
+                  <div className='col-auto mt-3 ms-auto me-auto'>
                     <input
                       className='form-control'
                       type='email'
                       placeholder='Enter your email address'
                     />
                   </div>
-                  <div className='col-auto'>
+                  <div className='col-auto mt-3 ms-auto me-auto'>
                     <button className='btn hero-5-button'>Subscribe</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className='row hero-6'>
+          <div className='row hero-6 text-center'>
             <div className='col-12 hero-6-top d-flex flex-column align-items-center'>
               <img src={Hero2Header} width='50' />
               <h2>Read Our Blog</h2>
@@ -236,47 +254,53 @@ function App() {
                 doeiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <div className='col-12 hero-6-bottom d-flex justify-content-center text-center'>
-              <div className='card'>
-                <img src={Hero6Placeholder} className='card-img-top' />
-                <div className='card-body'>
-                  <h5 className='card-title'>Blog Post One</h5>
-                  <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    doeiusmod
-                  </p>
-                  <a className='hero-6-card-link' href=''>
-                    Read More
-                    <span className='hero-6-card-link-underline'></span>
-                  </a>
+            <div className='col-12 row hero-6-bottom d-flex justify-content-center align-items-center text-center'>
+              <div className='col-12 col-sm-6 col-md-4'>
+                <div className='card'>
+                  <img src={Hero6Placeholder} className='card-img-top' />
+                  <div className='card-body'>
+                    <h5 className='card-title'>Blog Post One</h5>
+                    <p className='card-text'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed doeiusmod
+                    </p>
+                    <a className='hero-6-card-link' href=''>
+                      Read More
+                      <span className='hero-6-card-link-underline'></span>
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className='card'>
-                <img src={Hero6Placeholder} className='card-img-top' />
-                <div className='card-body'>
-                  <h5 className='card-title'>Blog Post One</h5>
-                  <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    doeiusmod
-                  </p>
-                  <a className='hero-6-card-link' href=''>
-                    Read More
-                    <span className='hero-6-card-link-underline'></span>
-                  </a>
+              <div className='col-12 col-sm-6 col-md-4'>
+                <div className='card'>
+                  <img src={Hero6Placeholder} className='card-img-top' />
+                  <div className='card-body'>
+                    <h5 className='card-title'>Blog Post One</h5>
+                    <p className='card-text'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed doeiusmod
+                    </p>
+                    <a className='hero-6-card-link' href=''>
+                      Read More
+                      <span className='hero-6-card-link-underline'></span>
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className='card'>
-                <img src={Hero6Placeholder} className='card-img-top' />
-                <div className='card-body'>
-                  <h5 className='card-title'>Blog Post One</h5>
-                  <p className='card-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    doeiusmod
-                  </p>
-                  <a className='hero-6-card-link' href=''>
-                    Read More
-                    <span className='hero-6-card-link-underline'></span>
-                  </a>
+              <div className='col-12 col-sm-12 col-md-4'>
+                <div className='card'>
+                  <img src={Hero6Placeholder} className='card-img-top' />
+                  <div className='card-body'>
+                    <h5 className='card-title'>Blog Post One</h5>
+                    <p className='card-text'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed doeiusmod
+                    </p>
+                    <a className='hero-6-card-link' href=''>
+                      Read More
+                      <span className='hero-6-card-link-underline'></span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
