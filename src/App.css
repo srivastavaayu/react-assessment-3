@@ -160,3 +160,10 @@ color: #fff;
 color: #fff;
 text-decoration: none;
 }
+
+.separator {
+display: block;
+height: 10px;
+width: 5vw;
+border-top: 3px solid #00dbd0;
+}

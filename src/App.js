@@ -82,7 +82,7 @@ function Footer() {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
               doeiusmod tempor
-              <span className='separator'></span>
+              <span className='separator ms-auto me-auto'></span>
               &copy; Copyright 2020 Nature
             </p>
           </div>
